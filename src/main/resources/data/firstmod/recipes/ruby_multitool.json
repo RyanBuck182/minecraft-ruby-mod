@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:ruby_sword"
+    },
+    {
+      "item": "firstmod:ruby_axe"
+    },
+    {
+      "item": "firstmod:ruby_pickaxe"
+    },
+    {
+      "item": "firstmod:ruby_shovel"
+    }
+  ],
+  "result": {
+    "item": "firstmod:ruby_multitool",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:ruby"
+    },
+    {
+      "item": "firstmod:ruby"
+    },
+    {
+      "item": "firstmod:ruby"
+    },
+    {
+      "item": "firstmod:ruby"
+    },
+    {
+      "item": "firstmod:ruby"
+    }
+  ],
+  "result": {
+    "item": "firstmod:ruby_seeds",
+    "count": 5
+  }
+}

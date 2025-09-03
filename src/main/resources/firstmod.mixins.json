@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ERN468.firstmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SheepShearFixMixin",
+    "MooshroomShearFixMixin",
+    "SnowGolemShearFixMixin",
+    "BeehiveShearFixMixin",
+    "KnockbackResistanceFixMixin",
+    "CakeBlockFixMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "firstmod",
+  "version": "${version}",
+
+  "name": "First Mod",
+  "description": "My first mod. Has ruby tools, armor, and ore. Plus cheese.",
+  "authors": [
+    "ERN468"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/firstmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ERN468.firstmod.FirstMod"
+    ],
+    "client": [
+      "com.ERN468.firstmod.client.FirstModClient"
+    ]
+  },
+  "mixins": [
+    "firstmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
